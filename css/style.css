@@ -1,0 +1,71 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* common css end */
+
+body{
+    height: 100vh;
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+
+form{
+    width: 50%;
+    border: 3px solid plum;
+    padding: 50px;
+    border-radius: 40px;
+    background: rgba(0, 0, 255, 0.461);
+}
+
+form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    font-size:20px;
+    padding: 10px 40px 10px 15px;
+    border-radius: 5px;
+
+}
+
+form .input-style{
+    position: relative;
+}
+
+form .input-style button{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 14px;
+}
+
+form > button{
+    border: none;
+    color: white;
+    background: #4e54c8;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
